@@ -1,6 +1,5 @@
 let n = parseInt(prompt("Digite um número: "))
 
-function piramide(n) {
     for (let i = n; i >= 1; i--) {
         let linha = '';
 
@@ -15,5 +14,3 @@ function piramide(n) {
         }
         document.write(linha + "<br>");
     }
-}
-piramide(n);
